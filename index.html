@@ -7,23 +7,32 @@
   </head>
 
   <body>
+    <!-- riquadro nero trasparente che racchiude tutti gli elementi -->
     <div class="riquadro">
+
+      <!-- intestazione con logo -->
       <header>
         <img id="logo"src="logo.png" alt="">
         <h1>Taking Booleaners from A to B</h1>
       </header>
 
+      <!-- barra centrale con tasti per prenotazioni -->
       <nav>
-        <button type="button" name="button">Prenota</button>
-        <button type="button" name="button">Termina Prenotazione</button>
-        <button type="button" name="button">Accendi Luci</button>
+        <div class="barra-centrata">
+          <button type="button" name="button">Prenota</button>
+          <button type="button" name="button">Termina Prenotazione</button>
+          <button type="button" name="button">Accendi Luci</button>
+        </div>
       </nav>
 
-
-
-      <!-- barra prenotazioni -->
-      <div class="barra-prenotazioni">
-      </div>
+      <!-- corpo della pagina con i vari monopattini la locazione e lo stato della carica -->
+      <main>
+        <div class="box-posizione">
+          <input type="checkbox" class="checkbox">
+          <span class="checkbox">Monopattino Gino22 <br> </span>
+          <span class="freccia"> Via Guadalametri - a 220 metri da te <br> Stato carica: </span>
+          <div class="progress"></div>
+      </main>
 
     </div>
 

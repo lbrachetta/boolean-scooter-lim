@@ -8,19 +8,46 @@ header{
   text-align: center;
 }
 
-nav{
-  background-color: #01dc00;
-  text-align: center;
-  padding: 10px;
-  width: 80%;
-  margin: auto;
-}
 .riquadro{
   background-color: rgba(0, 0, 0, 0.7);
   margin:auto;
   width: 65%;
 }
 
+.barra-centrata{
+  background-color: #01dc00;
+  text-align: center;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+
+.checkbox{
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.box-posizione{
+  color: white;
+  text-align: left;
+  width: 82%;
+  margin: auto;
+}
+
+.freccia:before{
+  content: "\21A6";
+}
+
+.progress {
+    background: orange;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
 #logo{
+  margin-top: 100px;
   width: 200px;
 }
